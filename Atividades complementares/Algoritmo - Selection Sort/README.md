@@ -1,0 +1,1 @@
+Este programa, feito em C#, é uma implementação do algorítmo de Selection Sort no computador. Durante minhas aulas, eu aprendi sobre os algorítmos de ordenação de dados, como também montei alguns utilizando-se de fluxogramas.

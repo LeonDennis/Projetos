@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaBDLivros", "ParaCasa1\ListaBDLivros.csproj", "{2404B7D1-FCF6-4041-851B-D94FEBDBCCED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2404B7D1-FCF6-4041-851B-D94FEBDBCCED}.Debug|x86.ActiveCfg = Debug|x86
+		{2404B7D1-FCF6-4041-851B-D94FEBDBCCED}.Debug|x86.Build.0 = Debug|x86
+		{2404B7D1-FCF6-4041-851B-D94FEBDBCCED}.Release|x86.ActiveCfg = Release|x86
+		{2404B7D1-FCF6-4041-851B-D94FEBDBCCED}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEE53BAE-EEE4-4488-9280-5631E1D54479}
+	EndGlobalSection
+EndGlobal

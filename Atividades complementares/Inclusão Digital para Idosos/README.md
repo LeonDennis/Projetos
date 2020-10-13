@@ -1,0 +1,1 @@
+Estes são os slides que eu criei e utilizei durante minhas aulas no curso de Inclusão Digital para Idosos, na Vila Criativa Senior 50+, Santos. A apostila também foi criada por mim, que contém todo o conteúdo dos slides e algumas informações adicionais.

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Desenvolvimento Web II</title>
+	<link rel="stylesheet" href="cssimc.css">
+
+	
+</head>
+
+	
+<body>
+	<script src="ArquivoScript/javascriptimc.js"></script>
+	<h1>Calcular o IMC (Índice de Massa Corporal)</h1>
+	
+	<label for="imc">Digite o seu peso, em kg:</label>
+	<input type="string" id="peso">
+
+	<label for ="imc" class="radio" id="selecao">Selecione o seu sexo:
+		<label class="radio">
+			<input type="radio" value = "masc" name="sexo" id="Mas">
+			Masculino
+		  </label>
+		  <label class="radio">
+			<input type="radio" value = "femi" name="sexo" id="Fem">
+			Feminino
+		  </label>
+	</label>
+		
+
+	<label for="imc">Digite a sua altura, em metros:</label>
+	<input type="string" id="altura">
+
+	<button type="button" onclick="calculaimc()"> Calcular seu IMC </button>
+
+</body>
+	
+</html>
+
+

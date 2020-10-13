@@ -1,0 +1,1 @@
+Trabalhos práticos feitos com a linguagem C# no Windows Forms, durante meu 2º ano de curso. Todos eles utilizam o modo Windows Forms do Visual Studio, ou itens adicionais (como o Banco de dados Access, ou o Crystal Reports).

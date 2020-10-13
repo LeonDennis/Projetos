@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTA</title>
+    <link href="cc.css" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="container" id="criar-conta">
+        <h2> Conta corrente </h2>
+        <input id="nome" type="text" placeholder="Nome"> 
+        <input id="rg" type="number" placeholder="RG"> 
+        <input id="end" type="text" placeholder="Endereço"> 
+        <input id="cc" type="number" placeholder="Conta Corrente"> 
+        <button onclick="criarConta()" type="button" > Criar </button>
+        <p> Saldo inicial: R$100,00 </p>
+        <p id="msg"> </p>
+    </section>
+
+    <section class="container" id="deposito">
+        <h2> Conta corrente </h2>
+        <p> Depósito: </p>
+        <input id="valorDeposito" type="text" placeholder="Valor depósito"> 
+        <button onclick="depositar()" type="button" > Depositar </button>
+        <p id="msg2"> </p>
+
+        <button onclick="next()" type="button" > Próximo </button>
+    </section>
+
+    <section class="container" id="debito">
+        <h2> Conta corrente </h2>
+        <p> Retirada: </p>
+        <input id="valorDebito" type="text" placeholder="Valor retirada"> 
+        <button onclick="debitar()" type="button" > Retirar </button>
+        <p id="msg3"> </p>
+
+        <button onclick="prev()" type="button" > Voltar </button>
+        <button onclick="finish()" type="button" > Finalizar </button>
+    </section>
+
+    <section class="container" id="saldo">
+        <h2> Conta corrente </h2>
+        <p> Saldo atualizado com sucesso! </p>
+        <h3> Saldo atual: </h3>
+        <span id="saldoValue"> </span>
+
+    </section>
+    
+    <script src="cc1.js" type ="text/javascript"></script>
+</body>
+</html> 

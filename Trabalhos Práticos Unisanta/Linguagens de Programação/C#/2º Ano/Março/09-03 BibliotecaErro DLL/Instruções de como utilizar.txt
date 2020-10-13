@@ -1,0 +1,25 @@
+criar um novo projeto Class Library
+adicionar as funções nele
+salvar e compilar
+ir no código que quer usar, apertar em references, add references
+selecionar o debug do código acima
+colocar no código using nomedoprojeto;
+
+
+
+
+
+using System;
+
+namespace BibliotecaErro
+{
+    public class Erro
+    {
+        private static bool erro;
+        private static String mens;
+        public static void setErro(bool _erro) { erro = _erro; }
+        public static void setErro(String _mens) { erro = true; mens = _mens; }
+        public static bool getErro() { return erro; }
+        public static String getMens() { return mens; }
+    }
+}

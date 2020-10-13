@@ -1,0 +1,1 @@
+Este trabalho era um trabalho opcional utilizando o Shell Script do Linux, onde o objetivo era criar um menu que renomeie arquivos, copie arquivos, exclua arquivos, copie pastas inteiras e que saia do programa. Adicionais: o programa também cria arquivos .txt e pastas vazias, para fins de testes.
